@@ -4,8 +4,8 @@ package webui
 import (
   "net/http"
 
-  "github.com/contribsys/faktory/server"
-  "github.com/contribsys/faktory/manager"
+  "github.com/lucaslsl/faktory/server"
+  "github.com/lucaslsl/faktory/manager"
 )
 
 func ego_busy(w io.Writer, req *http.Request) {

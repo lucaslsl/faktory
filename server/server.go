@@ -15,10 +15,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/contribsys/faktory/client"
-	"github.com/contribsys/faktory/manager"
-	"github.com/contribsys/faktory/storage"
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/client"
+	"github.com/lucaslsl/faktory/manager"
+	"github.com/lucaslsl/faktory/storage"
+	"github.com/lucaslsl/faktory/util"
 )
 
 var (

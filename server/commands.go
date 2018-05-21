@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/contribsys/faktory/client"
-	"github.com/contribsys/faktory/manager"
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/client"
+	"github.com/lucaslsl/faktory/manager"
+	"github.com/lucaslsl/faktory/util"
 )
 
 // A command responds to an client request.

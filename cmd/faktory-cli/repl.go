@@ -13,11 +13,11 @@ import (
 	"syscall"
 
 	"github.com/chzyer/readline"
-	"github.com/contribsys/faktory/cli"
-	"github.com/contribsys/faktory/client"
-	"github.com/contribsys/faktory/storage"
-	"github.com/contribsys/faktory/util"
 	"github.com/contribsys/gorocksdb"
+	"github.com/lucaslsl/faktory/cli"
+	"github.com/lucaslsl/faktory/client"
+	"github.com/lucaslsl/faktory/storage"
+	"github.com/lucaslsl/faktory/util"
 )
 
 const helpMsg = `Valid commands:

@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/util"
 	"github.com/stretchr/testify/assert"
 )
 

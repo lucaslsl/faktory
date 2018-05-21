@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	faktory "github.com/contribsys/faktory/client"
+	faktory "github.com/lucaslsl/faktory/client"
 )
 
 var (

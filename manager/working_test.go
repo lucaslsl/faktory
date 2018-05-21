@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/contribsys/faktory/client"
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktorylient"
+	"github.com/lucaslsl/faktorytil"
 	"github.com/stretchr/testify/assert"
 )
 

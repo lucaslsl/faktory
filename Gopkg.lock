@@ -14,6 +14,21 @@
   version = "v1.4"
 
 [[projects]]
+  name = "github.com/lucaslsl/faktory"
+  packages = [
+    "cli",
+    "client",
+    "manager",
+    "server",
+    "storage",
+    "storage/brodal",
+    "util",
+    "webui"
+  ]
+  revision = "473ef717839e06124a0e67add6fba28355949819"
+  version = "v0.7.0-1"
+
+[[projects]]
   branch = "master"
   name = "github.com/contribsys/gorocksdb"
   packages = ["."]
@@ -52,6 +67,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d1541d454b8f6aeee111bd678db2e82ec8eb38bd6d0fddc4874a536bf926cb7c"
+  inputs-digest = "417a4929558434067d7e436ee73c10c2e80f134a5f62aa6a7b8cdb91cd08a365"
   solver-name = "gps-cdcl"
   solver-version = 1

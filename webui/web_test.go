@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/contribsys/faktory/server"
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/server"
+	"github.com/lucaslsl/faktory/util"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -20,7 +20,7 @@ checklist.
 ### Update Homebrew
 
 - `git pull`
-- Download `curl -o binary https://codeload.github.com/contribsys/faktory/tar.gz/v#{version}`
+- Download `curl -o binary https://codeload.github.com/lucaslsl/faktory/tar.gz/v#{version}`
 - `shasum -a 256 binary`
 - Edit homebrew-faktory/faktory.rb, update version and sha256
 - `git ci -am "release" && git push`

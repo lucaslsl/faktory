@@ -3,9 +3,9 @@ package manager
 import (
 	"encoding/json"
 
-	"github.com/contribsys/faktory/client"
-	"github.com/contribsys/faktory/storage"
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/client"
+	"github.com/lucaslsl/faktory/storage"
+	"github.com/lucaslsl/faktory/util"
 )
 
 func (m *manager) Purge() (int64, error) {

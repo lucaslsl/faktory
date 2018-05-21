@@ -8,9 +8,9 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/contribsys/faktory/client"
-	"github.com/contribsys/faktory/storage"
 	"github.com/contribsys/gorocksdb"
+	"github.com/lucaslsl/faktory/client"
+	"github.com/lucaslsl/faktory/storage"
 	"github.com/stretchr/testify/assert"
 )
 

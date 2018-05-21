@@ -3,8 +3,8 @@ package storage
 import (
 	"fmt"
 
-	"github.com/contribsys/faktory/util"
 	"github.com/contribsys/gorocksdb"
+	"github.com/lucaslsl/faktory/util"
 )
 
 const (

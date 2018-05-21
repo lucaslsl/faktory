@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/contribsys/faktory/cli"
-	"github.com/contribsys/faktory/client"
-	"github.com/contribsys/faktory/server"
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/cli"
+	"github.com/lucaslsl/faktory/client"
+	"github.com/lucaslsl/faktory/server"
+	"github.com/lucaslsl/faktory/util"
 	"github.com/stretchr/testify/assert"
 )
 

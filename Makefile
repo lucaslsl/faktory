@@ -31,14 +31,14 @@ prepare: ## Download all dependencies
 
 test: clean generate ## Execute test suite
 	go test $(TEST_FLAGS) \
-		github.com/contribsys/faktory/client \
-		github.com/contribsys/faktory/manager \
-		github.com/contribsys/faktory/server \
-		github.com/contribsys/faktory/storage \
-		github.com/contribsys/faktory/test \
-		github.com/contribsys/faktory/util \
-		github.com/contribsys/faktory/webui \
-		github.com/contribsys/faktory/cmd/faktory-cli
+		github.com/lucaslsl/faktory/client \
+		github.com/lucaslsl/faktory/manager \
+		github.com/lucaslsl/faktory/server \
+		github.com/lucaslsl/faktory/storage \
+		github.com/lucaslsl/faktory/test \
+		github.com/lucaslsl/faktory/util \
+		github.com/lucaslsl/faktory/webui \
+		github.com/lucaslsl/faktory/cmd/faktory-cli
 
 dimg: ## Make a Docker image for the current version
 	#eval $(shell docker-machine env default)
@@ -64,10 +64,10 @@ dpush: tag
 	docker push contribsys/faktory:latest
 
 generate:
-	go generate github.com/contribsys/faktory/webui
+	go generate github.com/lucaslsl/faktory/webui
 
 cover:
-	go test -cover -coverprofile cover.out github.com/contribsys/faktory/server
+	go test -cover -coverprofile cover.out github.com/lucaslsl/faktory/server
 	go tool cover -html=cover.out -o coverage.html
 	open coverage.html
 

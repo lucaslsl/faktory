@@ -3,8 +3,8 @@ package server
 import (
 	"time"
 
-	"github.com/contribsys/faktory/manager"
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/manager"
+	"github.com/lucaslsl/faktory/util"
 )
 
 type reservationReaper struct {

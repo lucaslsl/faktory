@@ -17,13 +17,13 @@ ENV GOPATH /root/go
 ENV PATH ${PATH}:/root/go/bin
 
 RUN mkdir -p /root/go/src/github.com/contribsys
-ADD . /root/go/src/github.com/contribsys/faktory
-WORKDIR /root/go/src/github.com/contribsys/faktory
+ADD . /root/go/src/github.com/lucaslsl/faktory
+WORKDIR /root/go/src/github.com/lucaslsl/faktory
 RUN make prepare && make test && make build
 
 FROM alpine:3.7
-COPY --from=build /root/go/src/github.com/contribsys/faktory/faktory \
-                  /root/go/src/github.com/contribsys/faktory/faktory-cli \
+COPY --from=build /root/go/src/github.com/lucaslsl/faktory/faktory \
+                  /root/go/src/github.com/lucaslsl/faktory/faktory-cli \
                   /
 RUN apk add --no-cache libstdc++ libgcc
 RUN mkdir -p /root/.faktory/db

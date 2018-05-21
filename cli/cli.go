@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/contribsys/faktory/client"
-	"github.com/contribsys/faktory/server"
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/client"
+	"github.com/lucaslsl/faktory/server"
+	"github.com/lucaslsl/faktory/util"
 )
 
 type CmdOptions struct {

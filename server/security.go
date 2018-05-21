@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/util"
 )
 
 func fetchPassword(opts *ServerOptions) (string, error) {

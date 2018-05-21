@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/contribsys/faktory/server"
-	"github.com/contribsys/faktory/util"
 	"github.com/justinas/nosurf"
+	"github.com/lucaslsl/faktory/server"
+	"github.com/lucaslsl/faktory/util"
 	"github.com/stretchr/testify/assert"
 )
 

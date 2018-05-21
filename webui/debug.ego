@@ -6,8 +6,8 @@ import (
   "runtime"
   "time"
 
-  "github.com/contribsys/faktory/client"
-  "github.com/contribsys/faktory/storage"
+  "github.com/lucaslsl/faktory/client"
+  "github.com/lucaslsl/faktory/storage"
   "github.com/contribsys/gorocksdb"
 )
 
@@ -33,7 +33,7 @@ func ego_debug(w io.Writer, req *http.Request) {
           </select>
           <span style="font-size: small">
             Want to help us improve the translations?
-            <a href="https://github.com/contribsys/faktory/tree/master/webui/static/locales">Submit a PR</a>.
+            <a href="https://github.com/lucaslsl/faktory/tree/master/webui/static/locales">Submit a PR</a>.
           </span>
         </td>
     </tr>

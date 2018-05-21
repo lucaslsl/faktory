@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"sync/atomic"
 
-	"github.com/contribsys/faktory/client"
 	"github.com/contribsys/gorocksdb"
+	"github.com/lucaslsl/faktory/client"
 )
 
 type Transaction struct {

@@ -2,7 +2,7 @@
 package webui
 
 import (
-  "github.com/contribsys/faktory/client"
+  "github.com/lucaslsl/faktory/client"
 )
 
 func ego_footer(w io.Writer) {

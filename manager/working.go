@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/contribsys/faktory/client"
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/client"
+	"github.com/lucaslsl/faktory/util"
 )
 
 var (

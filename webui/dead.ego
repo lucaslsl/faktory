@@ -4,7 +4,7 @@ package webui
 import (
   "net/http"
 
-  "github.com/contribsys/faktory/client"
+  "github.com/lucaslsl/faktory/client"
 )
 
 func ego_dead(w io.Writer, req *http.Request, key string, dead *client.Job) {

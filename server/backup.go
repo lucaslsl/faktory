@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/contribsys/faktory/storage"
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/storage"
+	"github.com/lucaslsl/faktory/util"
 )
 
 type backupPolicy struct {

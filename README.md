@@ -1,4 +1,4 @@
-# Faktory [![Travis Build Status](https://travis-ci.org/contribsys/faktory.svg?branch=master)](https://travis-ci.org/contribsys/faktory?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/contribsys/faktory)](https://goreportcard.com/report/github.com/contribsys/faktory) [![Gitter](https://badges.gitter.im/contribsys/facktory.svg)](https://gitter.im/contribsys/faktory)
+# Faktory [![Travis Build Status](https://travis-ci.org/contribsys/faktory.svg?branch=master)](https://travis-ci.org/contribsys/faktory?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/lucaslsl/faktory)](https://goreportcard.com/report/github.com/lucaslsl/faktory) [![Gitter](https://badges.gitter.im/contribsys/facktory.svg)](https://gitter.im/contribsys/faktory)
 
 At a high level, Faktory is a work server.  It is the repository for
 background jobs within your application. Jobs have a type and a set of
@@ -21,11 +21,11 @@ the Faktory API to fetch a job from a queue.
 
 ## Installation
 
-See the [Installation wiki page](https://github.com/contribsys/faktory/wiki/Installation) for current installation methods.
+See the [Installation wiki page](https://github.com/lucaslsl/faktory/wiki/Installation) for current installation methods.
 
 ## Documentation
 
-Please [see the Faktory wiki](https://github.com/contribsys/faktory/wiki) for full documentation.
+Please [see the Faktory wiki](https://github.com/lucaslsl/faktory/wiki) for full documentation.
 
 ## Support
 

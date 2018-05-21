@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/contribsys/faktory/client"
-	"github.com/contribsys/faktory/server"
+	"github.com/lucaslsl/faktory/client"
+	"github.com/lucaslsl/faktory/server"
 )
 
 func statsHandler(w http.ResponseWriter, r *http.Request) {

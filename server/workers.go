@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/contribsys/faktory/util"
+	"github.com/lucaslsl/faktory/util"
 )
 
 //

@@ -3,7 +3,7 @@ package manager
 import (
 	"testing"
 
-	"github.com/contribsys/faktory/client"
+	"github.com/lucaslsl/faktory/client"
 	"github.com/stretchr/testify/assert"
 )
 

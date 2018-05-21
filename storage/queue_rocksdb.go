@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/contribsys/faktory/storage/brodal"
-	"github.com/contribsys/faktory/util"
 	"github.com/contribsys/gorocksdb"
+	"github.com/lucaslsl/faktory/storage/brodal"
+	"github.com/lucaslsl/faktory/util"
 )
 
 var (

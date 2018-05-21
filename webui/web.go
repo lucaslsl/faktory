@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/contribsys/faktory/server"
-	"github.com/contribsys/faktory/util"
 	"github.com/justinas/nosurf"
+	"github.com/lucaslsl/faktory/server"
+	"github.com/lucaslsl/faktory/util"
 )
 
 type Tab struct {
